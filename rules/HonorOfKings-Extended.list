@@ -1,0 +1,13 @@
+# HonorOfKings-Extended - Honor of Kings Global
+# SPDX-License-Identifier: GPL-3.0-only
+# Derived and filtered from credited upstreams; modified by SarinV.
+# Sources, original notices and exclusions: ../data/provenance.json, ../upstream/, ../NOTICE.md
+# Total: 7; behavior: classical; no routing policy embedded.
+# Includes shared Tencent game services; affects other games using those domains.
+DOMAIN-SUFFIX,gcloudcs.com
+DOMAIN-SUFFIX,gcloudsdk.com
+DOMAIN-SUFFIX,gcloudsvcs.com
+DOMAIN-SUFFIX,intlgame.com
+DOMAIN-SUFFIX,midasbuy.com
+DOMAIN-SUFFIX,proximabeta.com
+DOMAIN-SUFFIX,sgameglobal.com

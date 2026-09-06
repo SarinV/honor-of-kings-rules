@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "shared_service_suffixes": {
+    "gcloudcs.com": "腾讯 GCloud 共享服务；可能影响其他腾讯游戏。",
+    "gcloudsdk.com": "腾讯 GCloud 共享 SDK；是否需要应由连接日志验证。",
+    "gcloudsvcs.com": "腾讯 GCloud 共享服务；是否需要应由连接日志验证。",
+    "midasbuy.com": "腾讯国际游戏共享充值服务。",
+    "proximabeta.com": "腾讯国际游戏共享服务。"
+  },
+  "excluded_suffixes": {
+    "appsflyersdk.com": "通用归因服务，不自动接管其他应用的归因流量。",
+    "qq.com": "整个腾讯国内主域范围过广。",
+    "tencent.com": "整个腾讯主域范围过广。",
+    "qcloud.com": "整个公有云主域范围过广。",
+    "myqcloud.com": "整个公有云主域范围过广。",
+    "amazonaws.com": "整个公有云主域范围过广。",
+    "cloudfront.net": "整个共享 CDN 范围过广。"
+  },
+  "required_rules": [
+    "DOMAIN-SUFFIX,sgameglobal.com",
+    "DOMAIN-SUFFIX,intlgame.com"
+  ],
+  "max_rules_per_profile": 250,
+  "max_removal_fraction": 0.5,
+  "repository_stale_days": 180
+}

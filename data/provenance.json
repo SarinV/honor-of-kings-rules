@@ -1,0 +1,672 @@
+{
+  "rules": {
+    "DOMAIN-SUFFIX,gcloudcs.com": [
+      {
+        "line": 4,
+        "profile": "extended-only",
+        "raw": "gcloudcs.com",
+        "source": "v2fly-tencent-games"
+      }
+    ],
+    "DOMAIN-SUFFIX,gcloudsdk.com": [
+      {
+        "line": 8,
+        "profile": "extended-only",
+        "raw": "gcloudsdk.com",
+        "source": "v2fly-tencent-games"
+      }
+    ],
+    "DOMAIN-SUFFIX,gcloudsvcs.com": [
+      {
+        "line": 9,
+        "profile": "extended-only",
+        "raw": "gcloudsvcs.com",
+        "source": "v2fly-tencent-games"
+      }
+    ],
+    "DOMAIN-SUFFIX,intlgame.com": [
+      {
+        "line": 13,
+        "profile": "standard",
+        "raw": "DOMAIN-SUFFIX, intlgame.com",
+        "source": "fmz200-hok"
+      }
+    ],
+    "DOMAIN-SUFFIX,midasbuy.com": [
+      {
+        "line": 28,
+        "profile": "extended-only",
+        "raw": "midasbuy.com",
+        "source": "v2fly-tencent-games"
+      }
+    ],
+    "DOMAIN-SUFFIX,proximabeta.com": [
+      {
+        "line": 30,
+        "profile": "extended-only",
+        "raw": "proximabeta.com",
+        "source": "v2fly-tencent-games"
+      }
+    ],
+    "DOMAIN-SUFFIX,sgameglobal.com": [
+      {
+        "line": 14,
+        "profile": "standard",
+        "raw": "DOMAIN-SUFFIX, sgameglobal.com",
+        "source": "fmz200-hok"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "source_selections": [
+    {
+      "excluded": [
+        {
+          "line": 11,
+          "raw": "IP-CIDR, 183.192.65.101/16, no-resolve",
+          "reason": "IP ranges, keyword, regex and include rules require separate review; no automatic conversion.",
+          "type": "IP-CIDR",
+          "value": "183.192.65.101/16"
+        },
+        {
+          "line": 12,
+          "raw": "IP-CIDR, 43.132.55.55/16, no-resolve",
+          "reason": "IP ranges, keyword, regex and include rules require separate review; no automatic conversion.",
+          "type": "IP-CIDR",
+          "value": "43.132.55.55/16"
+        },
+        {
+          "line": 15,
+          "raw": "DOMAIN-SUFFIX, appsflyersdk.com",
+          "reason": "通用归因服务，不自动接管其他应用的归因流量。",
+          "type": "DOMAIN-SUFFIX",
+          "value": "appsflyersdk.com"
+        },
+        {
+          "line": 16,
+          "raw": "DOMAIN-KEYWORD, sgameglobal.com",
+          "reason": "IP ranges, keyword, regex and include rules require separate review; no automatic conversion.",
+          "type": "DOMAIN-KEYWORD",
+          "value": "sgameglobal.com"
+        }
+      ],
+      "id": "fmz200-hok",
+      "parsed_count": 6,
+      "selected_count": 2
+    },
+    {
+      "excluded": [
+        {
+          "line": 1,
+          "raw": "battlecare.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "battlecare.net"
+        },
+        {
+          "line": 2,
+          "raw": "gameitop.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gameitop.com"
+        },
+        {
+          "line": 3,
+          "raw": "gameloop.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gameloop.com"
+        },
+        {
+          "line": 5,
+          "raw": "gcloudcstest.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gcloudcstest.com"
+        },
+        {
+          "line": 6,
+          "raw": "gcloudcstestonly.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gcloudcstestonly.com"
+        },
+        {
+          "line": 7,
+          "raw": "gclouddolphin.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gclouddolphin.com"
+        },
+        {
+          "line": 10,
+          "raw": "gdtimg.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gdtimg.com"
+        },
+        {
+          "line": 11,
+          "raw": "goto-game.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "goto-game.com"
+        },
+        {
+          "line": 12,
+          "raw": "goto-game.mobi",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "goto-game.mobi"
+        },
+        {
+          "line": 13,
+          "raw": "goto-game.net.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "goto-game.net.cn"
+        },
+        {
+          "line": 14,
+          "raw": "goto-game.org",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "goto-game.org"
+        },
+        {
+          "line": 15,
+          "raw": "happyhlddz.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "happyhlddz.com"
+        },
+        {
+          "line": 16,
+          "raw": "hdyxgame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "hdyxgame.com"
+        },
+        {
+          "line": 17,
+          "raw": "hkgcloudcs.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "hkgcloudcs.com"
+        },
+        {
+          "line": 18,
+          "raw": "ihappystudio.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "ihappystudio.cn"
+        },
+        {
+          "line": 19,
+          "raw": "ihappystudio.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "ihappystudio.com"
+        },
+        {
+          "line": 20,
+          "raw": "in.th",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "in.th"
+        },
+        {
+          "line": 21,
+          "raw": "ludosuperstar.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "ludosuperstar.cn"
+        },
+        {
+          "line": 22,
+          "raw": "ludoworld.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "ludoworld.net"
+        },
+        {
+          "line": 23,
+          "raw": "mahjongai.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "mahjongai.net"
+        },
+        {
+          "line": 24,
+          "raw": "mahjongcup.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "mahjongcup.cn"
+        },
+        {
+          "line": 25,
+          "raw": "mahjongcup.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "mahjongcup.com"
+        },
+        {
+          "line": 26,
+          "raw": "mahjongcup.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "mahjongcup.net"
+        },
+        {
+          "line": 27,
+          "raw": "metalrevolution.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "metalrevolution.com"
+        },
+        {
+          "line": 29,
+          "raw": "nagcloudcs.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "nagcloudcs.com"
+        },
+        {
+          "line": 31,
+          "raw": "pubghelper.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "pubghelper.com"
+        },
+        {
+          "line": 32,
+          "raw": "pubgno1.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "pubgno1.cn"
+        },
+        {
+          "line": 33,
+          "raw": "pubgtool.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "pubgtool.com"
+        },
+        {
+          "line": 34,
+          "raw": "qqgameapp.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "qqgameapp.com"
+        },
+        {
+          "line": 35,
+          "raw": "rmwxgame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "rmwxgame.com"
+        },
+        {
+          "line": 36,
+          "raw": "skydweller.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "skydweller.cn"
+        },
+        {
+          "line": 37,
+          "raw": "syxlgame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "syxlgame.com"
+        },
+        {
+          "line": 38,
+          "raw": "tencent-gcloud.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "tencent-gcloud.com"
+        },
+        {
+          "line": 39,
+          "raw": "tencentstart.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "tencentstart.com"
+        },
+        {
+          "line": 40,
+          "raw": "texasholdemcup.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "texasholdemcup.cn"
+        },
+        {
+          "line": 41,
+          "raw": "texasholdemcup.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "texasholdemcup.com"
+        },
+        {
+          "line": 42,
+          "raw": "texasholdemcup.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "texasholdemcup.net"
+        },
+        {
+          "line": 43,
+          "raw": "timibase.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "timibase.com"
+        },
+        {
+          "line": 44,
+          "raw": "videoxiaoyouxi.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "videoxiaoyouxi.com"
+        },
+        {
+          "line": 45,
+          "raw": "wcbygame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "wcbygame.com"
+        },
+        {
+          "line": 46,
+          "raw": "yxdmgame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "yxdmgame.com"
+        },
+        {
+          "line": 47,
+          "raw": "yximg.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "yximg.cn"
+        },
+        {
+          "line": 48,
+          "raw": "yxwsgame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "yxwsgame.com"
+        },
+        {
+          "line": 49,
+          "raw": "yzyxgame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "yzyxgame.com"
+        },
+        {
+          "line": 50,
+          "raw": "zcjbgame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "zcjbgame.com"
+        },
+        {
+          "line": 51,
+          "raw": "zhuoyuegame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "zhuoyuegame.com"
+        },
+        {
+          "line": 53,
+          "raw": "xn--owtw8cc49ajfl.cn #碧蓝幻想.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "xn--owtw8cc49ajfl.cn"
+        },
+        {
+          "line": 56,
+          "raw": "roblox.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "roblox.cn"
+        },
+        {
+          "line": 57,
+          "raw": "roblox.qq.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "roblox.qq.com"
+        },
+        {
+          "line": 58,
+          "raw": "robloxdev.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "robloxdev.cn"
+        },
+        {
+          "line": 61,
+          "raw": "nextstudios.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "nextstudios.com"
+        },
+        {
+          "line": 62,
+          "raw": "nextworkshop.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "nextworkshop.net"
+        },
+        {
+          "line": 65,
+          "raw": "mszdld.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "mszdld.cn"
+        },
+        {
+          "line": 66,
+          "raw": "mszdld.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "mszdld.com"
+        },
+        {
+          "line": 67,
+          "raw": "mszdld.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "mszdld.net"
+        },
+        {
+          "line": 70,
+          "raw": "gamebonfire.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gamebonfire.com"
+        },
+        {
+          "line": 71,
+          "raw": "gouhuo.qq.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gouhuo.qq.com"
+        },
+        {
+          "line": 74,
+          "raw": "ffbuddy.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "ffbuddy.com"
+        },
+        {
+          "line": 75,
+          "raw": "gotolink.net",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gotolink.net"
+        },
+        {
+          "line": 76,
+          "raw": "gtgres.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "gtgres.com"
+        },
+        {
+          "line": 77,
+          "raw": "realcybertron.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "realcybertron.com"
+        },
+        {
+          "line": 78,
+          "raw": "wegame.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "wegame.com"
+        },
+        {
+          "line": 79,
+          "raw": "wegame.com.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "wegame.com.cn"
+        },
+        {
+          "line": 80,
+          "raw": "wegameplus.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "wegameplus.com"
+        },
+        {
+          "line": 81,
+          "raw": "werepository.com.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "werepository.com.cn"
+        },
+        {
+          "line": 84,
+          "raw": "brawlstars.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "brawlstars.cn"
+        },
+        {
+          "line": 85,
+          "raw": "haydaypop.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "haydaypop.cn"
+        },
+        {
+          "line": 86,
+          "raw": "labycore.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "labycore.cn"
+        },
+        {
+          "line": 87,
+          "raw": "sccreator.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "sccreator.cn"
+        },
+        {
+          "line": 88,
+          "raw": "sccreators.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "sccreators.cn"
+        },
+        {
+          "line": 89,
+          "raw": "scescdn.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "scescdn.cn"
+        },
+        {
+          "line": 90,
+          "raw": "scid.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "scid.cn"
+        },
+        {
+          "line": 91,
+          "raw": "scsentry.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "scsentry.cn"
+        },
+        {
+          "line": 92,
+          "raw": "supercellcommunity.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "supercellcommunity.cn"
+        },
+        {
+          "line": 93,
+          "raw": "supercellsupport.cn",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "supercellsupport.cn"
+        },
+        {
+          "line": 96,
+          "raw": "codm.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "codm.com"
+        },
+        {
+          "line": 99,
+          "raw": "bcfmglobal.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "bcfmglobal.com"
+        },
+        {
+          "line": 100,
+          "raw": "tcfmglobal.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "tcfmglobal.com"
+        },
+        {
+          "line": 103,
+          "raw": "anticheatexpert.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "anticheatexpert.com"
+        },
+        {
+          "line": 106,
+          "raw": "17roco.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "17roco.com"
+        },
+        {
+          "line": 107,
+          "raw": "roco.qq.com",
+          "reason": "Not in the reviewed shared-service selection.",
+          "type": "DOMAIN-SUFFIX",
+          "value": "roco.qq.com"
+        }
+      ],
+      "id": "v2fly-tencent-games",
+      "parsed_count": 86,
+      "selected_count": 5
+    }
+  ]
+}

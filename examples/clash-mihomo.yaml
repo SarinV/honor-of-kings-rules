@@ -1,0 +1,17 @@
+# Merge these entries into your existing configuration; this is NOT a node subscription.
+# Replace HOK with an existing policy group or create a group named HOK in your client.
+# Put the RULE-SET entry before GEOIP/CN, other broad DIRECT rules, and MATCH.
+rule-providers:
+  HonorOfKings:
+    type: http
+    behavior: classical
+    format: yaml
+    path: ./ruleset/HonorOfKings.yaml
+    url: https://raw.githubusercontent.com/SarinV/honor-of-kings-rules/main/rules/HonorOfKings.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,HonorOfKings,HOK
+
+# Optional: to include shared Tencent services, replace BOTH the URL filename
+# and the local path filename above with HonorOfKings-Extended.yaml.

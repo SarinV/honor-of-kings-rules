@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "fmz200-hok",
+      "repository": "fmz200/wool_scripts",
+      "ref": "main",
+      "path": "Loon/rule/HonorOfKings.list",
+      "format": "classical",
+      "selection": "dedicated-game",
+      "license": "GPL-3.0",
+      "license_path": "LICENSE",
+      "min_selected": 1,
+      "description": "王者荣耀国际版专用列表；选取域名规则，剔除宽泛 IP 段、关键字和通用归因域名。"
+    },
+    {
+      "id": "v2fly-tencent-games",
+      "repository": "v2fly/domain-list-community",
+      "ref": "master",
+      "path": "data/tencent-games",
+      "format": "geosite",
+      "selection": "shared-services",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "min_selected": 1,
+      "description": "仅作为可选扩展版的腾讯共享游戏服务来源；该文件并非 HOK 专用列表。"
+    }
+  ]
+}

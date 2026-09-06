@@ -1,0 +1,8 @@
+# HonorOfKings - Honor of Kings Global
+# SPDX-License-Identifier: GPL-3.0-only
+# Derived and filtered from credited upstreams; modified by SarinV.
+# Sources, original notices and exclusions: ../data/provenance.json, ../upstream/, ../NOTICE.md
+# Total: 2; behavior: classical; no routing policy embedded.
+payload:
+  - 'DOMAIN-SUFFIX,intlgame.com'
+  - 'DOMAIN-SUFFIX,sgameglobal.com'

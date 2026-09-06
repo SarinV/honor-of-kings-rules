@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "HonorOfKings": 2,
+    "HonorOfKings-Extended": 7
+  },
+  "last_successful_check_utc": "2026-09-06T17:09:35Z",
+  "meaning": "All sources fetched and validated. This is not a new-rule timestamp or a gameplay test.",
+  "schema_version": 1,
+  "sources": [
+    {
+      "commit": "550708578e54cbc2d6c9bee0c2e01d148ba59a37",
+      "file_commit": "d5ec22bca20b3fcfb79826c9e1d0a78d563e12ab",
+      "file_updated_at": "2026-04-21T08:42:49Z",
+      "id": "fmz200-hok",
+      "license": "GPL-3.0",
+      "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "path": "Loon/rule/HonorOfKings.list",
+      "raw_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/550708578e54cbc2d6c9bee0c2e01d148ba59a37/Loon/rule/HonorOfKings.list",
+      "ref": "main",
+      "repository": "fmz200/wool_scripts",
+      "repository_pushed_at": "2026-09-04T14:36:26Z",
+      "sha256": "f3b6f3329b9293a88fc67318c9c82a0212707483e4c703ba3c3b1da80a7a2329",
+      "stars_at_check": 5626,
+      "url": "https://github.com/fmz200/wool_scripts/blob/550708578e54cbc2d6c9bee0c2e01d148ba59a37/Loon/rule/HonorOfKings.list"
+    },
+    {
+      "commit": "9ff2d61d76ce28edb513920a2727f222793041c0",
+      "file_commit": "86b6b60528417286f7d3c3eb59706a308ab69ce7",
+      "file_updated_at": "2025-12-07T10:26:48Z",
+      "id": "v2fly-tencent-games",
+      "license": "MIT",
+      "license_sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
+      "path": "data/tencent-games",
+      "raw_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9ff2d61d76ce28edb513920a2727f222793041c0/data/tencent-games",
+      "ref": "master",
+      "repository": "v2fly/domain-list-community",
+      "repository_pushed_at": "2026-09-06T03:58:36Z",
+      "sha256": "9a70f0f1d68301b27b689e84b91ef4dca54e1e9d0afa69aafecf7d524a8e77c2",
+      "stars_at_check": 9449,
+      "url": "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/tencent-games"
+    }
+  ]
+}
