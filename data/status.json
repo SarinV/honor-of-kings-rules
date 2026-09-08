@@ -3,25 +3,25 @@
     "HonorOfKings": 2,
     "HonorOfKings-Extended": 7
   },
-  "last_successful_check_utc": "2026-09-07T00:05:30Z",
+  "last_successful_check_utc": "2026-09-08T00:33:00Z",
   "meaning": "All sources fetched and validated. This is not a new-rule timestamp or a gameplay test.",
   "schema_version": 1,
   "sources": [
     {
-      "commit": "550708578e54cbc2d6c9bee0c2e01d148ba59a37",
+      "commit": "6e7bf91a2b412ff75177084e0d593af19a3c5947",
       "file_commit": "d5ec22bca20b3fcfb79826c9e1d0a78d563e12ab",
       "file_updated_at": "2026-04-21T08:42:49Z",
       "id": "fmz200-hok",
       "license": "GPL-3.0",
       "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "path": "Loon/rule/HonorOfKings.list",
-      "raw_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/550708578e54cbc2d6c9bee0c2e01d148ba59a37/Loon/rule/HonorOfKings.list",
+      "raw_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/6e7bf91a2b412ff75177084e0d593af19a3c5947/Loon/rule/HonorOfKings.list",
       "ref": "main",
       "repository": "fmz200/wool_scripts",
-      "repository_pushed_at": "2026-09-04T14:36:26Z",
+      "repository_pushed_at": "2026-09-07T13:43:54Z",
       "sha256": "f3b6f3329b9293a88fc67318c9c82a0212707483e4c703ba3c3b1da80a7a2329",
-      "stars_at_check": 5627,
-      "url": "https://github.com/fmz200/wool_scripts/blob/550708578e54cbc2d6c9bee0c2e01d148ba59a37/Loon/rule/HonorOfKings.list"
+      "stars_at_check": 5630,
+      "url": "https://github.com/fmz200/wool_scripts/blob/6e7bf91a2b412ff75177084e0d593af19a3c5947/Loon/rule/HonorOfKings.list"
     },
     {
       "commit": "9ff2d61d76ce28edb513920a2727f222793041c0",
@@ -36,7 +36,7 @@
       "repository": "v2fly/domain-list-community",
       "repository_pushed_at": "2026-09-06T03:58:36Z",
       "sha256": "9a70f0f1d68301b27b689e84b91ef4dca54e1e9d0afa69aafecf7d524a8e77c2",
-      "stars_at_check": 9450,
+      "stars_at_check": 9456,
       "url": "https://github.com/v2fly/domain-list-community/blob/9ff2d61d76ce28edb513920a2727f222793041c0/data/tencent-games"
     }
   ]
