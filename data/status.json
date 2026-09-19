@@ -3,7 +3,7 @@
     "HonorOfKings": 2,
     "HonorOfKings-Extended": 7
   },
-  "last_successful_check_utc": "2026-09-18T00:30:31Z",
+  "last_successful_check_utc": "2026-09-19T00:26:06Z",
   "meaning": "All sources fetched and validated. This is not a new-rule timestamp or a gameplay test.",
   "schema_version": 1,
   "sources": [
@@ -36,7 +36,7 @@
       "repository": "v2fly/domain-list-community",
       "repository_pushed_at": "2026-09-14T09:17:33Z",
       "sha256": "9a70f0f1d68301b27b689e84b91ef4dca54e1e9d0afa69aafecf7d524a8e77c2",
-      "stars_at_check": 9506,
+      "stars_at_check": 9512,
       "url": "https://github.com/v2fly/domain-list-community/blob/6fe5416797ec88d29a3a1c69ce1431d73b955e88/data/tencent-games"
     }
   ]
