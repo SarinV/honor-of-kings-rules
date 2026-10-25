@@ -3,7 +3,7 @@
     "HonorOfKings": 2,
     "HonorOfKings-Extended": 7
   },
-  "last_successful_check_utc": "2026-10-24T00:51:27Z",
+  "last_successful_check_utc": "2026-10-25T00:23:43Z",
   "meaning": "All sources fetched and validated. This is not a new-rule timestamp or a gameplay test.",
   "schema_version": 1,
   "sources": [
@@ -20,24 +20,24 @@
       "repository": "fmz200/wool_scripts",
       "repository_pushed_at": "2026-10-01T14:21:03Z",
       "sha256": "f3b6f3329b9293a88fc67318c9c82a0212707483e4c703ba3c3b1da80a7a2329",
-      "stars_at_check": 5807,
+      "stars_at_check": 5814,
       "url": "https://github.com/fmz200/wool_scripts/blob/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/Loon/rule/HonorOfKings.list"
     },
     {
-      "commit": "597956ad5d1c063d80329d58a6aaadf6dcec43a7",
-      "file_commit": "86b6b60528417286f7d3c3eb59706a308ab69ce7",
-      "file_updated_at": "2025-12-07T10:26:48Z",
+      "commit": "44e37212c1154407744543bd1ea5e5750fd44902",
+      "file_commit": "922d0351e10e46a7d48d44d1ba01886f8cae49f3",
+      "file_updated_at": "2026-10-24T12:51:24Z",
       "id": "v2fly-tencent-games",
       "license": "MIT",
       "license_sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
       "path": "data/tencent-games",
-      "raw_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/tencent-games",
+      "raw_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/44e37212c1154407744543bd1ea5e5750fd44902/data/tencent-games",
       "ref": "master",
       "repository": "v2fly/domain-list-community",
-      "repository_pushed_at": "2026-10-23T06:47:15Z",
-      "sha256": "9a70f0f1d68301b27b689e84b91ef4dca54e1e9d0afa69aafecf7d524a8e77c2",
-      "stars_at_check": 9733,
-      "url": "https://github.com/v2fly/domain-list-community/blob/597956ad5d1c063d80329d58a6aaadf6dcec43a7/data/tencent-games"
+      "repository_pushed_at": "2026-10-24T13:26:55Z",
+      "sha256": "f8825da5e66919a1739664011da28dfb9b3fac4593b57c105b05ffe769142d52",
+      "stars_at_check": 9739,
+      "url": "https://github.com/v2fly/domain-list-community/blob/44e37212c1154407744543bd1ea5e5750fd44902/data/tencent-games"
     }
   ]
 }
