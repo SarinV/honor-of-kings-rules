@@ -3,7 +3,7 @@
     "HonorOfKings": 2,
     "HonorOfKings-Extended": 7
   },
-  "last_successful_check_utc": "2026-11-07T02:05:24Z",
+  "last_successful_check_utc": "2026-11-08T01:36:15Z",
   "meaning": "All sources fetched and validated. This is not a new-rule timestamp or a gameplay test.",
   "schema_version": 1,
   "sources": [
@@ -20,24 +20,24 @@
       "repository": "fmz200/wool_scripts",
       "repository_pushed_at": "2026-10-30T16:04:49Z",
       "sha256": "f3b6f3329b9293a88fc67318c9c82a0212707483e4c703ba3c3b1da80a7a2329",
-      "stars_at_check": 5933,
+      "stars_at_check": 5934,
       "url": "https://github.com/fmz200/wool_scripts/blob/4b7830670baf235ed945085cb926dc499cf619e0/Loon/rule/HonorOfKings.list"
     },
     {
-      "commit": "16fd8005d390470e8523745c9fa631c9e767cc61",
+      "commit": "e8d7a10a15bf662c927a40a3aa680bae86379608",
       "file_commit": "4af75ecfbd62c077f9f3ae68b0ae21b89fda1c60",
       "file_updated_at": "2026-11-06T07:00:24Z",
       "id": "v2fly-tencent-games",
       "license": "MIT",
       "license_sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
       "path": "data/tencent-games",
-      "raw_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/16fd8005d390470e8523745c9fa631c9e767cc61/data/tencent-games",
+      "raw_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/e8d7a10a15bf662c927a40a3aa680bae86379608/data/tencent-games",
       "ref": "master",
       "repository": "v2fly/domain-list-community",
-      "repository_pushed_at": "2026-11-06T13:15:56Z",
+      "repository_pushed_at": "2026-11-08T01:10:24Z",
       "sha256": "1746bfda9fd96e002af8611418193d086cd0890112953aeff599b2179a171f95",
-      "stars_at_check": 9843,
-      "url": "https://github.com/v2fly/domain-list-community/blob/16fd8005d390470e8523745c9fa631c9e767cc61/data/tencent-games"
+      "stars_at_check": 9854,
+      "url": "https://github.com/v2fly/domain-list-community/blob/e8d7a10a15bf662c927a40a3aa680bae86379608/data/tencent-games"
     }
   ]
 }
