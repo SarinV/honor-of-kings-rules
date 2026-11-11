@@ -3,7 +3,7 @@
     "HonorOfKings": 2,
     "HonorOfKings-Extended": 7
   },
-  "last_successful_check_utc": "2026-11-10T04:12:18Z",
+  "last_successful_check_utc": "2026-11-11T02:00:21Z",
   "meaning": "All sources fetched and validated. This is not a new-rule timestamp or a gameplay test.",
   "schema_version": 1,
   "sources": [
@@ -20,7 +20,7 @@
       "repository": "fmz200/wool_scripts",
       "repository_pushed_at": "2026-11-10T00:11:45Z",
       "sha256": "f3b6f3329b9293a88fc67318c9c82a0212707483e4c703ba3c3b1da80a7a2329",
-      "stars_at_check": 5942,
+      "stars_at_check": 5946,
       "url": "https://github.com/fmz200/wool_scripts/blob/3bf100e5c1e68730a76dbb6d401a5913921db823/Loon/rule/HonorOfKings.list"
     },
     {
@@ -36,7 +36,7 @@
       "repository": "v2fly/domain-list-community",
       "repository_pushed_at": "2026-11-10T03:45:45Z",
       "sha256": "1746bfda9fd96e002af8611418193d086cd0890112953aeff599b2179a171f95",
-      "stars_at_check": 9872,
+      "stars_at_check": 9879,
       "url": "https://github.com/v2fly/domain-list-community/blob/2b7ae3222f79e58e323a6b1c30c6618821068963/data/tencent-games"
     }
   ]
