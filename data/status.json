@@ -3,41 +3,41 @@
     "HonorOfKings": 2,
     "HonorOfKings-Extended": 7
   },
-  "last_successful_check_utc": "2026-11-27T04:21:10Z",
+  "last_successful_check_utc": "2026-11-28T04:01:36Z",
   "meaning": "All sources fetched and validated. This is not a new-rule timestamp or a gameplay test.",
   "schema_version": 1,
   "sources": [
     {
-      "commit": "f6bcc087e4da7ebef3c596be4a3c0fa406661564",
+      "commit": "d875bc946ed8a6a9606ef40d29bf55a7c8435e08",
       "file_commit": "d5ec22bca20b3fcfb79826c9e1d0a78d563e12ab",
       "file_updated_at": "2026-04-21T08:42:49Z",
       "id": "fmz200-hok",
       "license": "GPL-3.0",
       "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "path": "Loon/rule/HonorOfKings.list",
-      "raw_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/f6bcc087e4da7ebef3c596be4a3c0fa406661564/Loon/rule/HonorOfKings.list",
+      "raw_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/d875bc946ed8a6a9606ef40d29bf55a7c8435e08/Loon/rule/HonorOfKings.list",
       "ref": "main",
       "repository": "fmz200/wool_scripts",
-      "repository_pushed_at": "2026-11-25T13:38:03Z",
+      "repository_pushed_at": "2026-11-28T00:56:21Z",
       "sha256": "f3b6f3329b9293a88fc67318c9c82a0212707483e4c703ba3c3b1da80a7a2329",
-      "stars_at_check": 6055,
-      "url": "https://github.com/fmz200/wool_scripts/blob/f6bcc087e4da7ebef3c596be4a3c0fa406661564/Loon/rule/HonorOfKings.list"
+      "stars_at_check": 6054,
+      "url": "https://github.com/fmz200/wool_scripts/blob/d875bc946ed8a6a9606ef40d29bf55a7c8435e08/Loon/rule/HonorOfKings.list"
     },
     {
-      "commit": "99b3169c537639873b56499d3412232b52b6b59b",
+      "commit": "f68dab92e2ce656bbd81a4ae424de79b179f0f77",
       "file_commit": "4af75ecfbd62c077f9f3ae68b0ae21b89fda1c60",
       "file_updated_at": "2026-11-06T07:00:24Z",
       "id": "v2fly-tencent-games",
       "license": "MIT",
       "license_sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
       "path": "data/tencent-games",
-      "raw_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/99b3169c537639873b56499d3412232b52b6b59b/data/tencent-games",
+      "raw_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/f68dab92e2ce656bbd81a4ae424de79b179f0f77/data/tencent-games",
       "ref": "master",
       "repository": "v2fly/domain-list-community",
-      "repository_pushed_at": "2026-11-27T01:35:10Z",
+      "repository_pushed_at": "2026-11-27T13:50:37Z",
       "sha256": "1746bfda9fd96e002af8611418193d086cd0890112953aeff599b2179a171f95",
-      "stars_at_check": 10026,
-      "url": "https://github.com/v2fly/domain-list-community/blob/99b3169c537639873b56499d3412232b52b6b59b/data/tencent-games"
+      "stars_at_check": 10032,
+      "url": "https://github.com/v2fly/domain-list-community/blob/f68dab92e2ce656bbd81a4ae424de79b179f0f77/data/tencent-games"
     }
   ]
 }
